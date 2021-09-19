@@ -1,0 +1,23 @@
+<?php
+ $name= $_POST['name'];
+ $visitor_number=$_POST['number'];
+ $message=$_POST['message'];
+
+
+ $email_from='swatikamboj249@gmail.com';
+
+ $email_subject="new form submission";
+
+ $email_body="user nmae:$name.\n".
+               "user contact :$visitor_contact.\n". 
+               "user message:$_message.\n";
+
+
+
+        $to="swatikamboj249@gmail.com"
+        $headers="from: $name_from\r\n";
+        $headers="reply-to:$visitor_number\r\n";
+        header("location:contact.html")
+
+
+        ?>
